@@ -187,13 +187,13 @@ void initOpenGLProgram(GLFWwindow* window) {
 	glfwSetWindowSizeCallback(window,windowResizeCallback);
 	glfwSetKeyCallback(window,keyCallback);
 	sp = new ShaderProgram("v_block.glsl", NULL, "f_block.glsl");
-	tex_board = readTexture("lines.png");//GL_TEXTURE1
-	tex_block = readTexture("bricks.png");//GL_TEXTURE0
-	tex_stone = readTexture("stone.png");//GL_TEXTURE2
-	tex_bedrock = readTexture("bedrock.png");//GL_TEXTURE3
-	tex_dirt = readTexture("coal.png");//GL_TEXTURE4
-	tex_diamond = readTexture("diamond.png");//GL_TEXTURE5
-	tex_walk = readTexture("blackstone.png");
+	tex_board = readTexture("textures/lines.png");//GL_TEXTURE1
+	tex_block = readTexture("textures/bricks.png");//GL_TEXTURE0
+	tex_stone = readTexture("textures/stone.png");//GL_TEXTURE2
+	tex_bedrock = readTexture("textures/bedrock.png");//GL_TEXTURE3
+	tex_dirt = readTexture("textures/coal.png");//GL_TEXTURE4
+	tex_diamond = readTexture("textures/diamond.png");//GL_TEXTURE5
+	tex_walk = readTexture("textures/blackstone.png");
 	//sp = new ShaderProgram("v_simplest.glsl", NULL, "f_simplest.glsl");
 
 }
