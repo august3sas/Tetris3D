@@ -1,8 +1,9 @@
 # Tetris3D
-Computer Graphics and Visualization Project using C++, OpenGL and GLSL. Created by august3sas &amp; deptage
+Computer Graphics and Visualization Project using C++, OpenGL and GLSL.
 
+## Created by august3sas &amp; deptage
 
-Controls:
+## Controls:
 
 - WASD - steer the block
 
